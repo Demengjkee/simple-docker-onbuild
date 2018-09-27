@@ -5,7 +5,7 @@ import os
 
 def main():
     print(os.uname())
-    print(os.getcwd())
+    print("cWD: {}".format(os.getcwd()))
 
 
 if __name__ == "__main__":

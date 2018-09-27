@@ -7,7 +7,4 @@ ONBUILD ADD . /opt/app/
 ONBUILD WORKDIR /opt/app/
 
 
-# RUN
-FROM python-runner:latest
 
-ENTRYPOINT ["python", "main.py"]
